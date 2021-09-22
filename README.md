@@ -1,9 +1,14 @@
 # docker-phpenv
 Script that creates a docker container for PHP
 
-Usage: phpenv.py [command] [flags]
+## Usage
 
-commands:
+phpenv.py [command] [flags]
+
+(Run this instide your project root or empty folder)
+
+
+## Commands
   ```
 create [-d, -o]  (creates the docker folder/file structure)
                    ('-d' forces deletion of the original files after successful copy)
